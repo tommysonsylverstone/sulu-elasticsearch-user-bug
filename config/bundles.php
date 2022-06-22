@@ -44,4 +44,6 @@ return [
     Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle::class => ['all' => true],
     Sulu\Bundle\ActivityBundle\SuluActivityBundle::class => ['all' => true],
     Sulu\Bundle\TrashBundle\SuluTrashBundle::class => ['all' => true],
+    ONGR\ElasticsearchBundle\ONGRElasticsearchBundle::class => ['all' => true],
+    Sulu\Bundle\ArticleBundle\SuluArticleBundle::class => ['all' => true],
 ];
