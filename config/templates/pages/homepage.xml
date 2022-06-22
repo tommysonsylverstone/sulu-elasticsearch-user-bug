@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <template xmlns="http://schemas.sulu.io/template/template"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd">
 
     <key>homepage</key>
 
@@ -36,11 +35,14 @@
             <tag name="sulu.rlp"/>
         </property>
 
-        <property name="article" type="text_editor">
+        <property name="articles" type="smart_content">
             <meta>
                 <title lang="en">Article</title>
                 <title lang="de">Artikel</title>
             </meta>
+            <params>
+                <param name="provider" value="articles" />
+            </params>
         </property>
     </properties>
 </template>

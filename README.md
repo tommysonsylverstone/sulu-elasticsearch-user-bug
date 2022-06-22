@@ -13,3 +13,5 @@ php bin/console ongr:es:index:create
 php bin/console ongr:es:index:create --manager=live
 ```
 9 - activate all your articles rights in your User settings `Settings > User roles > your role`
+10 - Create a smart content in your `homepage.xml`
+11 - Render your smart content in your `homepage.html.twig`
