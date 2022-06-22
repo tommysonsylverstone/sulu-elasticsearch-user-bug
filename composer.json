@@ -33,6 +33,7 @@
         "doctrine/doctrine-fixtures-bundle": "^3.4",
         "elasticsearch/elasticsearch": "7.17.*",
         "friendsofsymfony/http-cache-bundle": "^2.9",
+        "handcraftedinthealps/elasticsearch-bundle": "^5.2",
         "handcraftedinthealps/zendsearch": "^2.1",
         "jackalope/jackalope-doctrine-dbal": "^1.7",
         "sulu/article-bundle": "^2.3",
