@@ -1,9 +1,13 @@
 {% extends "base.html.twig" %}
 
 {% block content %}
-    <h1>{{ content.title }}</h1>
+	<h1>{{ content.title }}</h1>
 
-    {% for article in content.articles %}
-        {{article.title}}
-    {% endfor %}
+	{% for article in content.articles %}
+		{{article.title}}
+	{% endfor %}
+
+	<pre>
+        {{ dump(app.user) }}
+    </pre>
 {% endblock %}
