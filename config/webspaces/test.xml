@@ -18,6 +18,10 @@
         <default-template type="home">homepage</default-template>
     </default-templates>
 
+    <security>
+        <system>website</system>
+    </security>
+
     <templates>
         <template type="search">search/search</template>
         <!-- See: http://docs.sulu.io/en/latest/cookbook/custom-error-page.html how to create a custom error page -->
