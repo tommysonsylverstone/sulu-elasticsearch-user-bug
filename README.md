@@ -12,3 +12,4 @@
 php bin/console ongr:es:index:create
 php bin/console ongr:es:index:create --manager=live
 ```
+9 - activate all your articles rights in your User settings `Settings > User roles > your role`
