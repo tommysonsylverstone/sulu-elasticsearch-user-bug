@@ -28,3 +28,6 @@ You should be redirected to the frontpage where the smart content is, and have t
 The error appears if:
 - You try to use smart content with a user connected via Sulu Community Bundle
 - If you connect as a sulu User where a smart content is active
+
+## UPDATE 2 OF MAY 2023
+The bug has been fixed as of suluArticleBundle:2.4.1 https://github.com/sulu/SuluArticleBundle/pull/626
